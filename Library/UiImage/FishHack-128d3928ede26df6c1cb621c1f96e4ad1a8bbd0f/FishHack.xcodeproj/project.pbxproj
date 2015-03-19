@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D288D26194C9E5100F66CCE /* FrontIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D288D25194C9E5100F66CCE /* FrontIconView.swift */; };
+		6D288D3E194CCE4100F66CCE /* new-report-quadrant-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D288D35194CCE4100F66CCE /* new-report-quadrant-ipad.png */; };
+		6D288D3F194CCE4100F66CCE /* new-template-quadrant-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D288D36194CCE4100F66CCE /* new-template-quadrant-ipad.png */; };
+		6D288D40194CCE4100F66CCE /* share-reports-quadrant-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D288D37194CCE4100F66CCE /* share-reports-quadrant-ipad.png */; };
+		6D288D41194CCE4100F66CCE /* view-reports-quadrant-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D288D38194CCE4100F66CCE /* view-reports-quadrant-ipad.png */; };
+		6D288D4C194CE9F000F66CCE /* new-report-quadrant-iphone5-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D288D48194CE9F000F66CCE /* new-report-quadrant-iphone5-01.png */; };
+		6D288D4D194CE9F000F66CCE /* new-template-quadrant-iphone5-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D288D49194CE9F000F66CCE /* new-template-quadrant-iphone5-01.png */; };
+		6D288D4E194CE9F000F66CCE /* share-reports-quadrant-iphone5-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D288D4A194CE9F000F66CCE /* share-reports-quadrant-iphone5-01.png */; };
+		6D288D4F194CE9F000F66CCE /* view-reports-quadrant-iphone5-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D288D4B194CE9F000F66CCE /* view-reports-quadrant-iphone5-01.png */; };
+		6DF325C6194C950D0097B56C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF325C5194C950D0097B56C /* AppDelegate.swift */; };
+		6DF325C8194C950D0097B56C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF325C7194C950D0097B56C /* Images.xcassets */; };
+		6DF325D4194C950D0097B56C /* FishHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF325D3194C950D0097B56C /* FishHackTests.swift */; };
+		6DF325E1194C98480097B56C /* FishRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF325E0194C98480097B56C /* FishRootController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DF325CE194C950D0097B56C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DF325B8194C950D0097B56C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF325BF194C950D0097B56C;
+			remoteInfo = FishHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D288D25194C9E5100F66CCE /* FrontIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontIconView.swift; sourceTree = "<group>"; };
+		6D288D33194CB9B300F66CCE /* Sizing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sizing.playground; sourceTree = "<group>"; };
+		6D288D35194CCE4100F66CCE /* new-report-quadrant-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-report-quadrant-ipad.png"; sourceTree = "<group>"; };
+		6D288D36194CCE4100F66CCE /* new-template-quadrant-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-template-quadrant-ipad.png"; sourceTree = "<group>"; };
+		6D288D37194CCE4100F66CCE /* share-reports-quadrant-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-reports-quadrant-ipad.png"; sourceTree = "<group>"; };
+		6D288D38194CCE4100F66CCE /* view-reports-quadrant-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view-reports-quadrant-ipad.png"; sourceTree = "<group>"; };
+		6D288D48194CE9F000F66CCE /* new-report-quadrant-iphone5-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-report-quadrant-iphone5-01.png"; sourceTree = "<group>"; };
+		6D288D49194CE9F000F66CCE /* new-template-quadrant-iphone5-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-template-quadrant-iphone5-01.png"; sourceTree = "<group>"; };
+		6D288D4A194CE9F000F66CCE /* share-reports-quadrant-iphone5-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-reports-quadrant-iphone5-01.png"; sourceTree = "<group>"; };
+		6D288D4B194CE9F000F66CCE /* view-reports-quadrant-iphone5-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view-reports-quadrant-iphone5-01.png"; sourceTree = "<group>"; };
+		6DF325C0194C950D0097B56C /* FishHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF325C4194C950D0097B56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF325C5194C950D0097B56C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DF325C7194C950D0097B56C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DF325CD194C950D0097B56C /* FishHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF325D2194C950D0097B56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF325D3194C950D0097B56C /* FishHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishHackTests.swift; sourceTree = "<group>"; };
+		6DF325E0194C98480097B56C /* FishRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishRootController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF325BD194C950D0097B56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF325CA194C950D0097B56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D288D34194CCE4100F66CCE /* ipad-icons */ = {
+			isa = PBXGroup;
+			children = (
+				6D288D35194CCE4100F66CCE /* new-report-quadrant-ipad.png */,
+				6D288D36194CCE4100F66CCE /* new-template-quadrant-ipad.png */,
+				6D288D37194CCE4100F66CCE /* share-reports-quadrant-ipad.png */,
+				6D288D38194CCE4100F66CCE /* view-reports-quadrant-ipad.png */,
+			);
+			path = "ipad-icons";
+			sourceTree = "<group>";
+		};
+		6D288D39194CCE4100F66CCE /* iphone-icons */ = {
+			isa = PBXGroup;
+			children = (
+				6D288D48194CE9F000F66CCE /* new-report-quadrant-iphone5-01.png */,
+				6D288D49194CE9F000F66CCE /* new-template-quadrant-iphone5-01.png */,
+				6D288D4A194CE9F000F66CCE /* share-reports-quadrant-iphone5-01.png */,
+				6D288D4B194CE9F000F66CCE /* view-reports-quadrant-iphone5-01.png */,
+			);
+			path = "iphone-icons";
+			sourceTree = "<group>";
+		};
+		6DF325B7194C950D0097B56C = {
+			isa = PBXGroup;
+			children = (
+				6DF325C2194C950D0097B56C /* FishHack */,
+				6DF325D0194C950D0097B56C /* FishHackTests */,
+				6DF325C1194C950D0097B56C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DF325C1194C950D0097B56C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DF325C0194C950D0097B56C /* FishHack.app */,
+				6DF325CD194C950D0097B56C /* FishHackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DF325C2194C950D0097B56C /* FishHack */ = {
+			isa = PBXGroup;
+			children = (
+				6DF325C5194C950D0097B56C /* AppDelegate.swift */,
+				6DF325DF194C982B0097B56C /* Models */,
+				6DF325DE194C98250097B56C /* Controllers */,
+				6DF325DD194C98160097B56C /* Views */,
+				6DF325C7194C950D0097B56C /* Images.xcassets */,
+				6D288D33194CB9B300F66CCE /* Sizing.playground */,
+				6DF325C3194C950D0097B56C /* Supporting Files */,
+			);
+			path = FishHack;
+			sourceTree = "<group>";
+		};
+		6DF325C3194C950D0097B56C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D288D34194CCE4100F66CCE /* ipad-icons */,
+				6D288D39194CCE4100F66CCE /* iphone-icons */,
+				6DF325C4194C950D0097B56C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DF325D0194C950D0097B56C /* FishHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DF325D3194C950D0097B56C /* FishHackTests.swift */,
+				6DF325D1194C950D0097B56C /* Supporting Files */,
+			);
+			path = FishHackTests;
+			sourceTree = "<group>";
+		};
+		6DF325D1194C950D0097B56C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DF325D2194C950D0097B56C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DF325DD194C98160097B56C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D288D25194C9E5100F66CCE /* FrontIconView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6DF325DE194C98250097B56C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6DF325E0194C98480097B56C /* FishRootController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6DF325DF194C982B0097B56C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DF325BF194C950D0097B56C /* FishHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF325D7194C950D0097B56C /* Build configuration list for PBXNativeTarget "FishHack" */;
+			buildPhases = (
+				6DF325BC194C950D0097B56C /* Sources */,
+				6DF325BD194C950D0097B56C /* Frameworks */,
+				6DF325BE194C950D0097B56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishHack;
+			productName = FishHack;
+			productReference = 6DF325C0194C950D0097B56C /* FishHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DF325CC194C950D0097B56C /* FishHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF325DA194C950D0097B56C /* Build configuration list for PBXNativeTarget "FishHackTests" */;
+			buildPhases = (
+				6DF325C9194C950D0097B56C /* Sources */,
+				6DF325CA194C950D0097B56C /* Frameworks */,
+				6DF325CB194C950D0097B56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DF325CF194C950D0097B56C /* PBXTargetDependency */,
+			);
+			name = FishHackTests;
+			productName = FishHackTests;
+			productReference = 6DF325CD194C950D0097B56C /* FishHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DF325B8194C950D0097B56C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Edgar Aroutiounian";
+				TargetAttributes = {
+					6DF325BF194C950D0097B56C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					6DF325CC194C950D0097B56C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 6DF325BF194C950D0097B56C;
+					};
+				};
+			};
+			buildConfigurationList = 6DF325BB194C950D0097B56C /* Build configuration list for PBXProject "FishHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DF325B7194C950D0097B56C;
+			productRefGroup = 6DF325C1194C950D0097B56C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DF325BF194C950D0097B56C /* FishHack */,
+				6DF325CC194C950D0097B56C /* FishHackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DF325BE194C950D0097B56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D288D4C194CE9F000F66CCE /* new-report-quadrant-iphone5-01.png in Resources */,
+				6D288D3E194CCE4100F66CCE /* new-report-quadrant-ipad.png in Resources */,
+				6D288D41194CCE4100F66CCE /* view-reports-quadrant-ipad.png in Resources */,
+				6D288D40194CCE4100F66CCE /* share-reports-quadrant-ipad.png in Resources */,
+				6D288D3F194CCE4100F66CCE /* new-template-quadrant-ipad.png in Resources */,
+				6D288D4F194CE9F000F66CCE /* view-reports-quadrant-iphone5-01.png in Resources */,
+				6D288D4D194CE9F000F66CCE /* new-template-quadrant-iphone5-01.png in Resources */,
+				6DF325C8194C950D0097B56C /* Images.xcassets in Resources */,
+				6D288D4E194CE9F000F66CCE /* share-reports-quadrant-iphone5-01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF325CB194C950D0097B56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DF325BC194C950D0097B56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF325C6194C950D0097B56C /* AppDelegate.swift in Sources */,
+				6D288D26194C9E5100F66CCE /* FrontIconView.swift in Sources */,
+				6DF325E1194C98480097B56C /* FishRootController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF325C9194C950D0097B56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF325D4194C950D0097B56C /* FishHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DF325CF194C950D0097B56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DF325BF194C950D0097B56C /* FishHack */;
+			targetProxy = 6DF325CE194C950D0097B56C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6DF325D5194C950D0097B56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6DF325D6194C950D0097B56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DF325D8194C950D0097B56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FishHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DF325D9194C950D0097B56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FishHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6DF325DB194C950D0097B56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FishHack.app/FishHack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FishHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		6DF325DC194C950D0097B56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FishHack.app/FishHack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FishHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DF325BB194C950D0097B56C /* Build configuration list for PBXProject "FishHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF325D5194C950D0097B56C /* Debug */,
+				6DF325D6194C950D0097B56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF325D7194C950D0097B56C /* Build configuration list for PBXNativeTarget "FishHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF325D8194C950D0097B56C /* Debug */,
+				6DF325D9194C950D0097B56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF325DA194C950D0097B56C /* Build configuration list for PBXNativeTarget "FishHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF325DB194C950D0097B56C /* Debug */,
+				6DF325DC194C950D0097B56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DF325B8194C950D0097B56C /* Project object */;
+}
